@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    button{
+        border-color: rgb(103, 142, 214);
+        color: #fff;
+        box-shadow: 0 0 40px 40px rgb(103, 142, 214) inset, 0 0 0 0 rgb(103, 142, 214);
+        transition: all 150ms ease-in-out;
+        height: 50px;
+        width: 30%;
+        border: 0;
+        border-radius: 100pt;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-size: large;
+        font-style: normal;
+    }
+    .buttonBox{
+        display: flex;
+        justify-content: center;
+    }
+    .line{
+        height: 100%;
+        flex-grow: 1;
+    }
+    .Main{
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5%;
+        flex-grow: 1;
+        display: flex;
+    }
+    .Right{
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-size: small;
+        font-style: normal;
+    }
+    h1{
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-size:larger;
+    }
+    .topBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        height: 5%;
+        padding: 1%;
+        background-color: white;
+        border: solid rgb(214, 214, 214);  
+        border-width: 0px 0px 2px 0px ;
+    }
+    .Bottom{
+        padding: 1%;
+        background-color: white;  
+    }
+    body{
+        height: 85vh;
+        margin: 0;
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        flex-direction: column;
+    }
+    p{
+        font-size:14pt;
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
